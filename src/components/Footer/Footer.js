@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Typography } from "antd";
+import { Typography } from "antd";
 import MailImg from "../../images/email.svg";
 import "./Footer.scss";
 
