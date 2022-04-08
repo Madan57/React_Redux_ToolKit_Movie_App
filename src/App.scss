@@ -1,0 +1,40 @@
+@import '../src/common//colors.scss';
+
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 7px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #79b8f3
+;
+  border-radius: 1rem;
+}
+
+@-moz-document url-prefix() {
+  .scroller {
+    scrollbar-color: #79b8f3
+;
+  }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+      font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: $font-primary;
+}
+
+body {
+    background: $primary-color;
+}
+
+.container {
+    margin: 100px 40px;
+}
+
